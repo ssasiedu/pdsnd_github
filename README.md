@@ -1,15 +1,28 @@
 ### Date created
-Include the date you created this project and README file.
+
+19th Decemeber,2019.
+
 
 ### Project Title
-Replace the Project Title
+
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+
+This project explores the data generated from a bike share system.
+The user of the system is allowed to view the raw data upon request,
+The user is allowed to enter in data filters based on the prompts generated.
+These filters are used to explore the bikeshare data.
+A descriptive statistical analysis is performed as well as other 
+interesting statistical reports are generated.
+
 
 ### Files used
-Include the files used
+
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+https://udacity.github.io/git-styleguide/
