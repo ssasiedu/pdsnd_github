@@ -200,9 +200,9 @@ def user_stats(df):
        
 def main():
     """
-    Running the main system
-    Asking the user whether he/she would like to view the first 5 rows of raw data until the user enters no
-    Calling all sub functions, to run statistical reports based on filters parameters
+    Running the main system, by calling all the sub functions.
+    Displaying 5 rows of raw data until user is okay.
+    Displaying of all statistical reports based on the filter supplied by the user.
     """
     end_point = 5  #end point for data viewing 
     start_point = 0  #start point for data viewing
