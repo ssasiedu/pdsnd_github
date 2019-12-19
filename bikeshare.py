@@ -110,7 +110,7 @@ def time_stats(df):
     # TO DO: display the most common month
     #common_month - variable for keeping the value of the most common month
     common_month = df['month'].mode()[0]
-    print("The most common month: ",common_month)
+    print("The most common month: {}".format(common_month))
 
     # TO DO: display the most common day of week
     #common_dow - variable for keeping the most common day of the week
