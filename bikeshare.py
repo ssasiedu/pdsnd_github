@@ -240,28 +240,28 @@ def main():
         try:
             time_stats(df)
         #incase of an exception the system will handle it smoothly      
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
         #running the statition statistical reports
         try:
             station_stats(df)
         #incase of an exception the system will handle it smoothly      
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
          #running the trip duration statistics     
         try:
             trip_duration_stats(df)
         #incase of an exception the system will handle it smoothly  
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
         #running the user statistical report    
         try:
             user_stats(df)
         #incase of an exception the system will handle it smoothly    
-        except Exception as e: 
+        except: 
             print("There is no avaiable data to analyze")
             
             
