@@ -110,7 +110,7 @@ def time_stats(df):
     # TO DO: display the most common month
     #common_month - variable for keeping the value of the most common month
     common_month = df['month'].mode()[0]
-    print("The most common month: ",common_month)
+    print("The most common month: {}".format(common_month))
 
     # TO DO: display the most common day of week
     #common_dow - variable for keeping the most common day of the week
@@ -240,28 +240,28 @@ def main():
         try:
             time_stats(df)
         #incase of an exception the system will handle it smoothly      
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
         #running the statition statistical reports
         try:
             station_stats(df)
         #incase of an exception the system will handle it smoothly      
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
          #running the trip duration statistics     
         try:
             trip_duration_stats(df)
         #incase of an exception the system will handle it smoothly  
-        except Exception as e:
+        except:
             print("There is no avaiable data to analyze")
             
         #running the user statistical report    
         try:
             user_stats(df)
         #incase of an exception the system will handle it smoothly    
-        except Exception as e: 
+        except: 
             print("There is no avaiable data to analyze")
             
             
