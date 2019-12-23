@@ -200,9 +200,11 @@ def user_stats(df):
        
 def main():
     """
-    Running the main system, by calling all the sub functions.
-    Displaying 5 rows of raw data until user is okay.
-    Displaying of all statistical reports based on the filter supplied by the user.
+    This system is designed to explore the Bikeshare Project based on three cities namely:
+    Chicago,Washington DC and New York.
+    The system starts by asking the user whether he/she would like to view some raw data in 5 rows.
+    After the user has opted out of the raw data, the system calculates the statistical reports.
+    These includes: time statistics,station statistics,trip duration and user statistics.
     """
     end_point = 5  #end point for data viewing 
     start_point = 0  #start point for data viewing

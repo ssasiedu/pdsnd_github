@@ -1,6 +1,6 @@
 ### Date created
 
-19th Decemeber,2019.
+23rd Decemeber,2019. Monday.
 
 
 ### Project Title
